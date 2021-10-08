@@ -7,7 +7,7 @@ type BaseProps = {
 
 
 const Base: React.FC = (props: BaseProps) => 
-<div className="min-h-screen bg-gray-100">
+<div className="min-h-screen bg-background">
     <Header />
     <div className="max-w-screen flex justify-center min-h-80">
         <div className="md:w-1/2">
