@@ -21,6 +21,7 @@ const AboutUs: React.FC = () =>
         <li>Shelter Our Students</li>
         <li>Groningen Feminist Network</li>
         <li>CJB Groningen</li>
+        <li>DWARS Groningen</li>
     </ul>
 
     <Paragraph className="pt-4">
