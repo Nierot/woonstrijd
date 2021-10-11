@@ -4,39 +4,59 @@ import { slide as HamburgerMenu } from 'react-burger-menu'
 import { useState } from "react";
 import './HamburgerMenu.css'
 
+type MenuProps = {
+    open: boolean
+}
 
-const Menu: React.FC = () => {
-    const [open, setOpen] = useState(false)
 
-    return <div className="pt-2 pr-2">
-        <HamburgerMenu right isOpen={open} customBurgerIcon={false}>
-            <MenuButton to="over-ons" text="Over ons" />
-            <MenuButton to="manifest" text="Manifest" />
-            <MenuButton to="nieuws" text="Nieuws" />
-            <MenuButton to="materiaal" text="Materiaal" />
+export const Menu = (props: MenuProps) => {
+
+    return <div>
+        <HamburgerMenu 
+            right 
+            isOpen={props.open} 
+            customBurgerIcon={false}>
+            <MenuItem visible to="wie-zijn-wij" text="Wie zijn wij" />
+            <MenuItem to="manifest" text="Manifest" />
+            <MenuItem visible to="achtergrond" text="Achtergrond" />
+            <MenuItem to="nieuws" text="Nieuws" />
+            <MenuItem to="help-ons" text="Help ons" />
+            <MenuItem to="materiaal" text="Materiaal" />
 
             {/* TODO doneer knop onderaan zetten en anders maken  */}
-            <MenuButton to="doneer" text="Doneer"/>
+            <MenuItem to="doneer" text="Doneer"/>
         </HamburgerMenu>
-        <HamburgerMenuIcon
-            isOpen={open}
-            menuClicked={() => setOpen(!open)}
-            color="#FFF"
-        />
+
     </div>
 
 }
 
 type MenuButtonProps = {
-    to: string
-    text: string
+    open: boolean
+    setOpen: (open: boolean) => void
 }
 
-const MenuButton = (props: MenuButtonProps) => 
-<div className="text-white">
-    <Link to={props.to}>
-        {props.text}
-    </Link>
-</div>
+export const MenuButton = (props: MenuButtonProps) =>
+<HamburgerMenuIcon
+    isOpen={props.open}
+    menuClicked={() => props.setOpen(!props.open)}
+    color="#FFF"
+/>
 
-export default Menu
+type MenuItemProps = {
+    to: string
+    text: string
+    visible?: boolean
+}
+
+const MenuItem = (props: MenuItemProps) => {
+    if (props.visible) {
+        return <div className="text-white py-4 text-2xl text-center">
+            <Link to={props.to}>
+                {props.text}
+            </Link>
+        </div>
+    } else {
+        return <></>
+    }
+}

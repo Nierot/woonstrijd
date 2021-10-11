@@ -1,19 +1,26 @@
-import Menu from "./Menu";
+import { useState } from "react";
+import { Menu, MenuButton } from "./Menu";
 
-const openMenu = () => {
 
+const Header: React.FC = () => {
+    const [open, setOpen] = useState(false)
+
+    return <header className="">
+    <div className="grid grid-cols-6 bg-header h-16">
+        <div className="col-span-5 text-white h-16">
+            <div className="w-64 p-px">
+                <a href="/"><img src="/header.jpg" alt="Woonstrijd Groningen" /></a>        
+            </div>
+        </div>
+        <div className="flex justify-end pt-4 pr-4">
+        {/* https://css-tricks.com/hamburger-menu-with-a-side-of-react-hooks-and-styled-components/ */}
+            <MenuButton open={open}  setOpen={setOpen}/>
+        </div>
+    </div>
+
+    <Menu open={open}/>
+</header>
 }
 
-const Header: React.FC = () =>
-<header className="grid grid-cols-6 bg-header h-16">
-    <p className="col-span-5">
-        {/* haha leuke header */}
-    </p>
-
-    <div className="flex justify-end py-2 px-2">
-        {/* https://css-tricks.com/hamburger-menu-with-a-side-of-react-hooks-and-styled-components/ */}
-        <Menu />
-    </div>
-</header>
 
 export default Header;

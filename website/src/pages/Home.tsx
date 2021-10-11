@@ -3,20 +3,8 @@ import Base from "./Base"
 
 const Home: React.FC = () => 
 <Base>
-    <h1 className="text-8xl text-center text-title pt-4 pb-2">
-        woonstrijd
-    </h1>
-    <h2 className="text-2xl text-center">
-        28 november
-    </h2>
-    <h2 className="text-2xl text-center text-accent">
-        Vismarkt
-    </h2>
-    <h2 className="text-2xl text-center pb-8">
-        Groningen
-    </h2>
-    <img src="" alt="Logo" />
-    <Paragraph>
+    <img src="/main_img_2.jpg" alt="Woonstrijd"/>
+    <Paragraph className="text-2xl" >
         Er is een woningcrisis in heel Nederland. 
         Het aantal dakloze mensen is in tien jaar verdubbeld. 
         De woningnood blijft verder uit de hand lopen. 
@@ -44,18 +32,10 @@ const Home: React.FC = () =>
         uit het aardbevingsgebied in de kou laat staan. 
         We moeten solidair zijn met alle mensen die getroffen zijn door deze crisis. 
     </Paragraph>
-    <Paragraph>
+    <Paragraph className="font-bold pb-16">
         Op 28 november 14:00 schudden we de politiek wakker. 
         Dan maken we een vuist op de vismarkt.
     </Paragraph>
-    {/* <div>
-        * leuk begin
-        * doneerlink
-        * Wie zijn wij
-        * achtergrond (probleem/urgentie)
-        * manifest aankondigen
-        * andere protesten
-    </div> */}
 </Base>
 
 

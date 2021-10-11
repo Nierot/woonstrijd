@@ -4,7 +4,7 @@ type ParagraphProps = {
     className?: string
 }
 
-const Paragraph: React.FC = (props: ParagraphProps) =>
+const Paragraph = (props: ParagraphProps) =>
 <p className={`${props.className} text-lg pb-4`}>
     { props.children }
 </p>
