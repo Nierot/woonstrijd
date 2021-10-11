@@ -34,7 +34,7 @@ const Home: React.FC = () =>
     </Paragraph>
     <Paragraph className="font-bold pb-16">
         Op 28 november 14:00 schudden we de politiek wakker. 
-        Dan maken we een vuist op de vismarkt.
+        Dan maken we een vuist op de Vismarkt.
     </Paragraph>
 </Base>
 
