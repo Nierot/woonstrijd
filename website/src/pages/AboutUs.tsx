@@ -16,7 +16,12 @@ const AboutUs: React.FC = () =>
         <li>ROOD Groningen</li>
         <li>Groningen BIJ1</li>
         <li>Jonge Socialisten Groningen</li>
-        <li>Bond Precaire Woonvormen</li>
+        <li>Internationale Socialisten Groningen</li>
+        <li>Bond Precaire Woonvormen Groningen</li>
+        <li>Democratische Academie Groningen</li>
+        <li>Shelter Our Students</li>
+        <li>Groningen Feminist Network</li>
+        <li>CJB Groningen</li>
     </ul>
 
     <Paragraph className="pt-4">
