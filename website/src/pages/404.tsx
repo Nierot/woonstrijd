@@ -1,5 +1,3 @@
-import Base from "./Base";
-
 const Page404: React.FC = () =>
 <div className="bg-background flex h-screen w-screen flex-col justify-center items-center">
     <h1 className="text-9xl text-red-700">

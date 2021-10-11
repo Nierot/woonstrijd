@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"
 import HamburgerMenuIcon from 'react-hamburger-menu'
 import { slide as HamburgerMenu } from 'react-burger-menu'
-import { useState } from "react";
 import './HamburgerMenu.css'
 
 type MenuProps = {
