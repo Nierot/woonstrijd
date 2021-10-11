@@ -14,7 +14,6 @@ const AboutUs: React.FC = () =>
 
     <ul className="list-disc list-inside text-lg">
         <li>ROOD Groningen</li>
-        <li>Groningen BIJ1</li>
         <li>Jonge Socialisten Groningen</li>
         <li>Internationale Socialisten Groningen</li>
         <li>Bond Precaire Woonvormen Groningen</li>
