@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import Paragraph from "../components/Paragraph";
 import Title from "../components/Title";
 import Base from "./Base";
