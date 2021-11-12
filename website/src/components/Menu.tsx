@@ -23,7 +23,7 @@ export const Menu = (props: MenuProps) => {
             <MenuItem to="materiaal" text="Materiaal" />
 
             {/* TODO doneer knop onderaan zetten en anders maken  */}
-            <MenuItem to="doneer" text="Doneer"/>
+            <DonateButton visible to="doneer" text="Doneer"/>
         </HamburgerMenu>
 
     </div>
@@ -46,6 +46,12 @@ type MenuItemProps = {
     to: string
     text: string
     visible?: boolean
+}
+
+const DonateButton = (props: MenuItemProps) => {
+    return <div className="text-white py-4 text-2xl text-center bg-header mx-8 my-4">
+        <Link to={props.to}>{props.text}</Link>
+    </div>
 }
 
 const MenuItem = (props: MenuItemProps) => {

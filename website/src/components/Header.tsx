@@ -12,6 +12,7 @@ const Header: React.FC = () => {
                 <a href="/"><img src="/header.jpg" alt="Woonstrijd Groningen" /></a>        
             </div>
         </div>
+
         <div className="flex justify-end pt-4 pr-4">
         {/* https://css-tricks.com/hamburger-menu-with-a-side-of-react-hooks-and-styled-components/ */}
             <MenuButton open={open}  setOpen={setOpen}/>
