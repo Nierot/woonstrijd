@@ -192,12 +192,12 @@ const Manifest: React.FC = () =>
     <div className="pb-8"/>
 </Base>
 
-type HuisvestingEis = {
+type HuisvestingEisProps = {
     children: React.ReactNode
     title: string
 }
 
-const HuisvestingEis = (props: HuisvestingEis) =>
+const HuisvestingEis = (props: HuisvestingEisProps) =>
 <li className="py-2">
     <h4 className="font-bold">{props.title}</h4>
     <p>{props.children}</p>
