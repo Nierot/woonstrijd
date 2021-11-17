@@ -13,7 +13,9 @@ const Base = (props: BaseProps) =>
     <div className={`${props.className} 
         max-w-screen flex justify-center min-h-80
         `}>
-        <div className="px-4 md:w-1/2">
+        <div className="
+            px-4 md:w-3/4
+        ">
             { props.children }
         </div>
     </div>

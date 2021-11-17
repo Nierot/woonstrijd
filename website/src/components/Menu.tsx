@@ -16,7 +16,7 @@ export const Menu = (props: MenuProps) => {
             isOpen={props.open} 
             customBurgerIcon={false}>
             <MenuItem visible to="wie-zijn-wij" text="Wie zijn wij" />
-            <MenuItem to="manifest" text="Manifest" />
+            <MenuItem visible to="manifest" text="Manifest" />
             <MenuItem visible to="achtergrond" text="Achtergrond" />
             <MenuItem to="nieuws" text="Nieuws" />
             <MenuItem to="help-ons" text="Help ons" />
