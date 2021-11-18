@@ -13,6 +13,7 @@ import Home from './pages/Home';
 import Manifest from './pages/Manifest';
 import Materials from './pages/Materials';
 import News from './pages/News';
+import Register from './pages/Register';
 
 
 const App = () => <div>
@@ -45,6 +46,10 @@ const App = () => <div>
 
       <Route path="/materiaal" exact>
         <Materials />
+      </Route>
+
+      <Route path="/aanmelden" exact>
+        <Register />
       </Route>
 
       <Route path="/" exact>

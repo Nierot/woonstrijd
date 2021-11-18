@@ -9,6 +9,7 @@ const Footer: React.FC = () =>
         <p className="pt-1 pl-4"><Link to="/achtergrond">Achtergrond</Link></p>
         {/* <p className="pt-1 pl-4"><Link to="/nieuws">Nieuws</Link></p> */}
         <p className="pt-1 pl-4"><Link to="/manifest">Manifest</Link></p>
+        <p className="pt-1 pl-4"><Link to="/aanmelden">Aanmelden</Link></p>
         <p className="pt-1 pl-4"><Link to="/doneer">Doneer</Link></p>
         {/* <p className="pt-1 pl-4"><Link to="/help-ons">Help ons!</Link></p> */}
         {/* <p className="pt-1 pl-4"><Link to="/materiaal">Materiaal</Link></p> */}

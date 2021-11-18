@@ -18,6 +18,7 @@ export const Menu = (props: MenuProps) => {
             <MenuItem visible to="wie-zijn-wij" text="Wie zijn wij" />
             <MenuItem visible to="manifest" text="Manifest" />
             <MenuItem visible to="achtergrond" text="Achtergrond" />
+            <MenuItem visible to="aanmelden" text="Aanmelden" />
             <MenuItem to="nieuws" text="Nieuws" />
             <MenuItem to="help-ons" text="Help ons" />
             <MenuItem to="materiaal" text="Materiaal" />
