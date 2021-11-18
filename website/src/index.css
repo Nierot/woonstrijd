@@ -9,3 +9,10 @@
 .min-h-20 {
     min-height: 20vh;
 }
+
+@font-face {
+    font-family: 'chaney';
+    src: local('chaney'), url('./fonts/chaney.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+     local('chaney'), url('./fonts/chaney.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  }  
+  

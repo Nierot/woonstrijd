@@ -4,7 +4,7 @@ import Base from "./Base";
 
 const Manifest: React.FC = () =>
 <Base>
-    <Title className="py-8 pb-8 md:text-5xl lg:text-7xl underline">Groninger Woonmanifest</Title>
+    <Title className="py-8 pb-8 md:text-5xl lg:text-7xl font-chaney">Groninger Woonmanifest</Title>
     {/* Eisen in het kort */}
     <Paragraph className="pt-4 font-bold pl-12 pr-6 border-black border-2">
         <h1 className="pb-4 text-center text-2xl pr-6">
