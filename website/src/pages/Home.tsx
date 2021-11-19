@@ -4,6 +4,9 @@ import Base from "./Base"
 const Home: React.FC = () => 
 <Base>
     <img src="/main_img_2.jpg" alt="Woonstrijd"/>
+    <a href="/aanmelden" className="flex justify-center items-center py-3 text-xl">
+        <button className="center"><span className="underline">Meld je nu aan!</span></button>
+    </a>
     <Paragraph className="text-2xl" >
         Er is een woningcrisis in heel Nederland. 
         Het aantal dakloze mensen is in tien jaar verdubbeld. 
