@@ -22,6 +22,7 @@ const AboutUs: React.FC = () =>
         <li>Groningen Feminist Network</li>
         <li>CJB Groningen</li>
         <li>DWARS Groningen</li>
+        <li>RADICAAL</li>
     </ul>
 
     <Paragraph className="pt-4">
