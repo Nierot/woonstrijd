@@ -14,6 +14,7 @@ import Manifest from './pages/Manifest';
 import Materials from './pages/Materials';
 import News from './pages/News';
 import Register from './pages/Register';
+import Speeches from './pages/Speeches';
 
 
 const App = () => <div>
@@ -50,6 +51,10 @@ const App = () => <div>
 
       <Route path="/aanmelden" exact>
         <Register />
+      </Route>
+
+      <Route path="/speeches" exact>
+        <Speeches />
       </Route>
 
       <Route path="/" exact>

@@ -5,6 +5,7 @@ const Footer: React.FC = () =>
     {/* TODO dit nice in het midden zetten op grote schermen */}
     <div className="">
         <p className="uppercase">over ons</p>
+        <p className="pt-1 pl-4"><Link to="/speeches">Speeches</Link></p>
         <p className="pt-1 pl-4"><Link to="/wie-zijn-wij">Wie zijn wij</Link></p>
         <p className="pt-1 pl-4"><Link to="/achtergrond">Achtergrond</Link></p>
         {/* <p className="pt-1 pl-4"><Link to="/nieuws">Nieuws</Link></p> */}
