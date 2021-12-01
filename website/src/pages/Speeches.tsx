@@ -7,6 +7,52 @@ const Speeches = () =>
     <Title className="py-4">Speeches</Title>
 
     <Speech
+        by="Yvonne Morselt"
+        title="Aardbevingen"
+    >
+        <Paragraph>
+            Dank voor de uitnodiging om vandaag hier in Groningen ook iets te vertellen over de strijd die in Groningen al jaren gestreden wordt door mensen die gedupeerd zijn door de gasbevingen ten gevolge van mijnbouw, bij velen bekend als de gaswinning, die niet alleen schade veroorzaken aan huizen en gebouwen, maar grote groepen mensen in nood brengen en gemeenschappen ontwrichten. 
+        </Paragraph>
+
+        <Paragraph>
+            Mijn naam is Yvonne Morselt en ik ben lid van het bestuur van de Groninger Bodem Beweging, de vereniging die sinds 2009 opkomt voor de belangen van mensen die direct of indirect schade hebben door de gaswinning. 
+        </Paragraph>
+        
+        <Paragraph>
+            Daarbij overkomt het mensen dat ze vanuit de bevoorrechte positie van het hebben van een veilig thuis, zeker als ik dat vergelijk met velen hier die dat niet hebben, in een soort nachtmerrie belanden waaruit ze maar niet kunnen ontwaken. Dan krijgen kinderen les in het omgaan met de risico’s van een aardbeving van de veiligheidsregio’s, slapen ze niet meer in hun eigen kamer op een onveilige bovenverdieping, leren ze hoe ze onder een tafel moeten kruipen en zien ze dagelijks hoe hun ouders strijden en lijden. Niet eens zozeer onder het feit dat het is gebeurd, dat is een gegeven. Maar onder de onbetrouwbaarheid van de overheid en de gebroken beloftes. Die maken eerst actief, strijdbaar, dan boos en uiteindelijk ziek en passief. Ze zien zich dan gevangen in een situatie die niet door een wreed lot is veroorzaakt maar door hebzucht en onverschilligheid van het grote geld, de aandeelhoudersbelangen die gaan boven de belangen van mensen. Herkenbaar bij wat verder vanmiddag aan de orde komt.
+        </Paragraph>
+        
+        <Paragraph>
+            Uit eigen ervaring weet ik wat het betekent om gedupeerd te zijn en hoe de NAM, eigendom van Shell en Exxon, en de overheid proberen te ontkomen aan hun verantwoordelijkheid. Dat is tot op de dag van vandaag nog steeds voor veel gedupeerden aan de orde, vooral als het gaat om de grote en complexe schadegevallen of over onveilig verklaarde huizen.
+        </Paragraph>
+
+        <Paragraph>
+            Kosten noch moeite worden gespaard te weerleggen dat die veroorzaakt zijn door de gaswinning, vaak met grote overmacht aan advocaten die de meeste gedupeerden zich niet kunnen permitteren.
+        </Paragraph>
+
+        <Paragraph>
+            De schades doen zich voor in een groot gebied, ook in een aantal wijken hier in de stad, in Haren en ver in Drenthe. En dan heb ik het nog niet over de schades die ontstaan bij een combinatie van gaswinning en zoutwinning, ook in Friesland. Met verbijstering volgen wij dan ook de berichtgeving over nieuwe aanvragen voor winning in kleinere velden of onder de Waddenzee. 
+        </Paragraph>
+
+        <Paragraph>
+            Inmiddels is er een complete kerstboom opgetuigd om de zaak aan te pakken en te komen tot afhandeling van de problemen. Er is sprake van een complete aardbevingseconomie waar velen een goed belegde boterham verdienen en waar regionale bestuurders zich voornamelijk bezig houden met de gevolgen voor het gebied, daar miljoenen voor binnen halen. Toch zijn ze niet in staat problemen van hun eigen inwoners adequaat op te lossen. Zeker, er zijn mensen uit de sores, zeker, er wordt veel aangepakt. Maar het is niet genoeg, teveel mensen staan in de wachtstand en het duurt veel te lang. 
+        </Paragraph>
+
+        <Paragraph>
+            Daar spreken wij regering, tweede kamer, instituten en regionale bestuurders op aan. Het kan niet zo zijn dat mensen nog jaren in onzekerheid verkeren over de schadeafhandeling of de veiligheid van hun huizen. Want dat de aardbevingen zullen afnemen als de gaswinning wordt verminderd en uiteindelijk wordt gestopt is een wijdverbreid misverstand: de bodem blijft nog jaren onrustig en zware bevingen blijven mogelijk, getuige die van kortgeleden in Garrelsweer. Dat vraagt een crisisaanpak waarvan nu beslist nog geen sprake is. 
+        </Paragraph>
+
+        <Paragraph>
+            Wij hebben met andere maatschappelijke organisaties een Sociaal Handvest opgesteld om dit te bevorderen, we hopen dat dit voor alle betrokkenen de onderschreven leidraad wordt voor het handelen: dichtbij, transparant,  vanuit het perspectief en in het belang van bewoners en vooral: met menselijke maat.
+        </Paragraph>
+
+        <Paragraph className="font-bold">
+            Veilig en betaalbaar wonen moet geen strijd zijn maar een recht, zeker in een rijk en welvarend land als het onze.
+            <p>#hetmoetenkananders, dat is de hashtag die ik graag gebruik en die kan gelden voor alles wat ons hier vandaag samen brengt!</p>
+        </Paragraph>
+    </Speech>
+
+    <Speech
         title="Gas duur? Isoleer sociale huur!"
         by="Charlotte, de Goede Zaak">
             <Paragraph>
@@ -197,6 +243,7 @@ const Speeches = () =>
                 We moeten onszelf organiseren en voor onze belangen, de belangen van de meerderheid, opstaan. Sluit je daarom aan bij een vakbond of politieke organisatie! Zo kunnen wij de mensen met macht laten zien dat ze niet om ons heen kunnen met slappe praatjes. Pas als wij dit samen doen kunnen wij eindelijk dingen echt veranderen. Een andere wereld is mogelijk, een wereld waar iedereen krijgt wat die nodig heeft. Wij willen huizen voor mensen, voor iedereen, niet voor winst! Breek de macht van het kapitaal! 
             </Paragraph>
     </Speech>
+
 </Base>
 
 type SpeechProps = {
