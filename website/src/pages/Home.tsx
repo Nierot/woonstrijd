@@ -25,7 +25,7 @@ const Home: React.FC = () =>
     </Paragraph>
 
     <Paragraph>
-        Ervaren activisten van de volgende organisaties zullen aanwezig zijn om advies te geven en de discussie in goede banen te leiden.
+        Ervaren activisten zullen aanwezig zijn om advies te geven en de discussie in goede banen te leiden.
     </Paragraph>
 </Base>
 
